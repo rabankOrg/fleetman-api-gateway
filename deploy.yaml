@@ -15,7 +15,6 @@ spec:
       containers:
       - name: api-gateway
         image: ${REPOSITORY_TAG}
-        # image: bsdrab/rabankorg-fleetman-api-gateway:8
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: production-microservice
